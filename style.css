@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0077be, #00b4db);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.whale {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Whale_silhouette.svg/1200px-Whale_silhouette.svg.png') no-repeat center;
+  background-size: contain;
+  top: 50%;
+  left: -250px; /* Начинает за пределами экрана */
+  opacity: 0.8;
+}
